@@ -1,0 +1,10 @@
+127.0.0.1 - - [07/Mar/2017:22:32:10 +0800] "GET /tmall/admin HTTP/1.1" 302 -
+127.0.0.1 - - [07/Mar/2017:22:32:11 +0800] "GET /tmall/admin/ HTTP/1.1" 302 -
+127.0.0.1 - - [07/Mar/2017:22:32:11 +0800] "GET /tmall/admin_category_list HTTP/1.1" 200 9170
+127.0.0.1 - - [07/Mar/2017:22:32:11 +0800] "GET /tmall/css/back/style.css HTTP/1.1" 200 1265
+127.0.0.1 - - [07/Mar/2017:22:32:11 +0800] "GET /tmall/img/site/tmallbuy.png HTTP/1.1" 200 1643
+127.0.0.1 - - [07/Mar/2017:22:32:11 +0800] "GET /tmall/img/category/81.jpg HTTP/1.1" 200 39999
+127.0.0.1 - - [07/Mar/2017:22:32:11 +0800] "GET /tmall/img/category/79.jpg HTTP/1.1" 200 20669
+127.0.0.1 - - [07/Mar/2017:22:32:11 +0800] "GET /tmall/img/category/80.jpg HTTP/1.1" 200 106181
+127.0.0.1 - - [07/Mar/2017:22:32:11 +0800] "GET /tmall/img/category/83.jpg HTTP/1.1" 200 99566
+127.0.0.1 - - [07/Mar/2017:22:32:11 +0800] "GET /tmall/img/category/82.jpg HTTP/1.1" 200 62244

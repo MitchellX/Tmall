@@ -1,0 +1,84 @@
+三月 07, 2017 10:32:05 下午 org.apache.tomcat.util.digester.SetPropertiesRule begin
+警告: [SetPropertiesRule]{Server/Service/Engine/Host/Context} Setting property 'debug' to '0' did not find a matching property.
+三月 07, 2017 10:32:05 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server version:        Apache Tomcat/7.0.64
+三月 07, 2017 10:32:05 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server built:          Aug 19 2015 17:18:06 UTC
+三月 07, 2017 10:32:05 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Server number:         7.0.64.0
+三月 07, 2017 10:32:05 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Name:               Windows 7
+三月 07, 2017 10:32:05 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: OS Version:            6.1
+三月 07, 2017 10:32:05 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Architecture:          x86
+三月 07, 2017 10:32:05 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Java Home:             d:\software\jdk8\jre
+三月 07, 2017 10:32:05 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Version:           1.8.0_65-b17
+三月 07, 2017 10:32:05 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: JVM Vendor:            Oracle Corporation
+三月 07, 2017 10:32:05 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_BASE:         E:\download\tomcat
+三月 07, 2017 10:32:05 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: CATALINA_HOME:         E:\download\tomcat
+三月 07, 2017 10:32:05 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.config.file=E:\download\tomcat\conf\logging.properties
+三月 07, 2017 10:32:05 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+三月 07, 2017 10:32:05 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.endorsed.dirs=E:\download\tomcat\endorsed
+三月 07, 2017 10:32:05 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.base=E:\download\tomcat
+三月 07, 2017 10:32:05 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Dcatalina.home=E:\download\tomcat
+三月 07, 2017 10:32:05 下午 org.apache.catalina.startup.VersionLoggerListener log
+信息: Command line argument: -Djava.io.tmpdir=E:\download\tomcat\temp
+三月 07, 2017 10:32:05 下午 org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+信息: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: d:\software\jdk8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;d:\software\jdk8\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\software\winrar;C:\Program Files\Intel\OpenCL SDK\1.5\bin\x86;.
+三月 07, 2017 10:32:05 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["http-bio-8080"]
+三月 07, 2017 10:32:05 下午 org.apache.coyote.AbstractProtocol init
+信息: Initializing ProtocolHandler ["ajp-bio-8089"]
+三月 07, 2017 10:32:05 下午 org.apache.catalina.startup.Catalina load
+信息: Initialization processed in 584 ms
+三月 07, 2017 10:32:05 下午 org.apache.catalina.core.StandardService startInternal
+信息: Starting service Catalina
+三月 07, 2017 10:32:05 下午 org.apache.catalina.core.StandardEngine startInternal
+信息: Starting Servlet Engine: Apache Tomcat/7.0.64
+三月 07, 2017 10:32:05 下午 org.apache.catalina.loader.WebappClassLoader validateJarFile
+信息: validateJarFile(E:\project\tmall\web\WEB-INF\lib\servlet-api.jar) - jar not loaded. See Servlet Spec 3.0, section 10.7.2. Offending class: javax/servlet/Servlet.class
+三月 07, 2017 10:32:06 下午 org.apache.catalina.startup.TldConfig execute
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+三月 07, 2017 10:32:06 下午 org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+信息: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [109] milliseconds.
+三月 07, 2017 10:32:06 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deploying web application directory E:\download\tomcat\webapps\ROOT
+三月 07, 2017 10:32:06 下午 org.apache.catalina.startup.HostConfig deployDirectory
+信息: Deployment of web application directory E:\download\tomcat\webapps\ROOT has finished in 62 ms
+三月 07, 2017 10:32:06 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["http-bio-8080"]
+三月 07, 2017 10:32:06 下午 org.apache.coyote.AbstractProtocol start
+信息: Starting ProtocolHandler ["ajp-bio-8089"]
+三月 07, 2017 10:32:06 下午 org.apache.catalina.startup.Catalina start
+信息: Server startup in 927 ms
+三月 07, 2017 10:32:11 下午 org.apache.jasper.compiler.TldLocationsCache tldScanJar
+信息: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+三月 07, 2017 11:18:19 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["http-bio-8080"]
+三月 07, 2017 11:18:19 下午 org.apache.coyote.AbstractProtocol pause
+信息: Pausing ProtocolHandler ["ajp-bio-8089"]
+三月 07, 2017 11:18:19 下午 org.apache.catalina.core.StandardService stopInternal
+信息: Stopping service Catalina
+三月 07, 2017 11:18:19 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesJdbc
+严重: The web application [/tmall] registered the JDBC driver [com.mysql.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+三月 07, 2017 11:18:19 下午 org.apache.catalina.loader.WebappClassLoader clearReferencesThreads
+严重: The web application [/tmall] appears to have started a thread named [MySQL Statement Cancellation Timer] but has failed to stop it. This is very likely to create a memory leak.
+三月 07, 2017 11:18:19 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["http-bio-8080"]
+三月 07, 2017 11:18:19 下午 org.apache.coyote.AbstractProtocol stop
+信息: Stopping ProtocolHandler ["ajp-bio-8089"]
+三月 07, 2017 11:18:19 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["http-bio-8080"]
+三月 07, 2017 11:18:19 下午 org.apache.coyote.AbstractProtocol destroy
+信息: Destroying ProtocolHandler ["ajp-bio-8089"]
